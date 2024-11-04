@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
+import logo from '../../assets/hero-removebg-preview.png'
 
 function Header() {
   return (
     <div>
-      <header className="bg-blue-600 p-4 shadow-lg">
+      <header className="bg-background text-text p-4 shadow-secondary">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo Section */}
-          <div className="text-white text-2xl font-bold">
-            <Link to="/">Spiro Locator</Link>
+          <div className="text-white lg:text-2xl text-md font-bold">
+            <Link to="/">
+              <img src={logo} alt="" className="h-24 inline-flex"/>
+              Spiro Locator
+              </Link>
           </div>
 
           {/* Navigation Links */}
