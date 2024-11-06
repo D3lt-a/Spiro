@@ -3,7 +3,7 @@ import logo from '../../assets/spiro_logo-1.svg'
 function Footer() {
   return (
     <div>
-      <footer className="bg-background rounded-lg shadow-xl dark:bg-gray-900 m-4">
+      <footer className="bg-gray-500 rounded-lg shadow-xl dark:bg-gray-900 m-4">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <a

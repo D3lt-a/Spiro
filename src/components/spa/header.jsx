@@ -4,7 +4,7 @@ import logo from '../../assets/hero-removebg-preview.png'
 function Header() {
   return (
     <div>
-      <header className="bg-background text-text p-4 shadow-secondary">
+      <header className="bg-gray-900 text-text p-4 shadow-secondary">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo Section */}
           <div className="text-white lg:text-2xl text-md font-bold">
@@ -31,7 +31,7 @@ function Header() {
           <div>
             <Link
               to="/getstarted"
-              className="bg-white text-blue-600 px-4 py-2 rounded-md hover:bg-gray-100 transition"
+              className="bg-[#EFFF00] text-indigo-600 font-semibold px-4 py-2 rounded-md hover:bg-gray-100 transition"
             >
               Get Started
             </Link>

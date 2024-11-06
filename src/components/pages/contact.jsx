@@ -1,7 +1,7 @@
 import Form from "../Contact/form"
 function contact() {
   return (
-    <div>contact
+    <div>
     <Form/>
     </div>
   )

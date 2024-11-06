@@ -1,7 +1,10 @@
+import Map from "../Stations/Map"
 
 function Stations() {
   return (
-    <div>Stations</div>
+    <div>
+      <Map/>
+    </div>
   )
 }
 
