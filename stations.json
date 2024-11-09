@@ -1,0 +1,77 @@
+{
+    "StationsData": [
+        {
+            "id": 1,
+            "name": "Spiro Station 1",
+            "image": "https://via.placeholder.com/150",
+            "address": "123 Main St, Kampala",
+            "locations": {
+                "latitude": 0.3476,
+                "longitude": 32.5825
+            },
+            "Services":{
+                "Swap":true,
+                "Repair":false,
+                "Charge":true
+            },
+            "Status":{
+                "workingTime": "24/7",
+                "available": true,
+                "contact": "0700000000"
+            },
+            "Batteries":{
+                "available":6,
+                "count":11
+            }
+        },
+        {
+            
+            "id": 2,
+            "name": "Spiro Station 2",
+            "image": "https://via.placeholder.com/120",
+            "address": "123 Nyamirambo, Rwanda",
+            "locations": {
+                "latitude": -1.935114,
+                "longitude": 30.082111
+            },
+            "Services":{
+                "Swap":true,
+                "Repair":true,
+                "Charge":false
+            },
+            "Status":{
+                "workingTime": "Mon-Fri",
+                "available": false,
+                "contact": "0700000000"
+            },
+            "Batteries":{
+                "available":3,
+                "count":11
+            }
+        },
+        {
+            "id": 3,
+            "name": "Spiro Station 3",
+            "image": "https://via.placeholder.com/170",
+            "address": "123 Kacyiru, Rwanda",
+            "locations": {
+                "latitude": -1.94407270,
+                "longitude": 30.06188510
+            },
+            "Services":{
+                "Swap":true,
+                "Repair":true,
+                "Charge":true
+            },
+            "Status":{
+                "workingTime": "6a.m - 10p.m",
+                "available": true,
+                "contact": "0700000000"
+            },
+            "Batteries":{
+                "available":11,
+                "count":11
+            }
+        }
+    ]
+}

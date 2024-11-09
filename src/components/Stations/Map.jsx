@@ -29,7 +29,7 @@ const stations = [
 
 function Map() {
   return (
-    <div className="grid lg:grid-cols-2 grid-cols-1 justify-evenly">
+    <div className="bg-gray-800 grid lg:grid-cols-2 grid-cols-1 justify-evenly">
       <div className="h-96 m-4 w-full">
         <MapContainer
           center={[0.3476, 32.5825]}
@@ -52,7 +52,7 @@ function Map() {
           ))}
         </MapContainer>
       </div>
-      <div>
+      <div className="w-8/9 ml-4">
         <p className="text-gray-500 rounded-lg bg-gray-900 p-8 m-4 dark:text-gray-400 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:font-bold first-letter:text-white dark:first-letter:text-[#EFFF00] first-letter:me-3 first-letter:float-start">
         Explore our network of Spiro stations located across key locations in Uganda, 
         designed to serve the needs of our community of electric vehicle riders. 

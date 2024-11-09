@@ -1,9 +1,9 @@
-import Map from "../Stations/Map"
+import StationsList from "../Stations/StationsList"
 
 function Stations() {
   return (
     <div>
-      <Map/>
+        <StationsList/>
     </div>
   )
 }

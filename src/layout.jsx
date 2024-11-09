@@ -6,7 +6,7 @@ import favicon from '../src/assets/favicon.ico'
 
 function Layout() {
   return (
-    <div>
+    <div className="bg-gray-800">
       <Favicon url= {favicon} />
       <Header/>
       <Outlet/>

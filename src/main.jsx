@@ -8,11 +8,13 @@ import Stations from './components/pages/Stations.jsx'
 import About from './components/pages/about.jsx'
 import Contact from './components/pages/contact.jsx'
 import GetStarted from './components/pages/getStarted.jsx'
+import Home from './components/spa/Home.jsx'
 
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
+      <Route path='' element={<Home />} />
       <Route path='Stations' element={<Stations />} />
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
